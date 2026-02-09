@@ -1,11 +1,13 @@
-# poiosofia-pub-
+# poiosofía-pub-
 
-Repositorio para textos, informes y publicaciones poiosóficas.
+Repositorio para textos, informes y
+
+ publicaciones poiosóficas.
 
 ## Estructura del Proyecto
 
 ```
-poiosofia-pub-/
+poiosofía-pub-/
 ├── Arts-Performing/     → Guiones, notas de performance, medios y expresiones artísticas
 ├── Critical-Thinking/   → Ensayos, críticas, bitácoras y análisis
 ├── Theory-Practice/     → Textos filosóficos, investigación y desarrollos teóricos
