@@ -5,14 +5,12 @@
     "code_blocks": false,
     "tables": false
   },
-  "MD022": false
-    
-  },
+  "MD022": false,
   "MD026": false,
   "MD032": false,
   "MD033": false,
   "MD040": true,
   "MD041": true,
   "MD047": true,
-  "MD009": true, 
+  "MD009": true
 }
