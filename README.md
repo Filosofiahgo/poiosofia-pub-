@@ -1,6 +1,5 @@
 # poiosofía-pub-
-Repositorio para textos, informes y
-publicaciones poiosóficas.
+Repositorio para textos y publicaciones.
 
 ## Estructura del Proyecto
 
