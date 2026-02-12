@@ -14,7 +14,7 @@
 
 ---
 ## Cuerpo Narrativo
-Escribe 
+Escribe
 ### [Sección o movimiento 1]
 [Desarrollo narrativo, filosófico o poético]
 ### [Sección o movimiento 2]
