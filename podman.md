@@ -16,8 +16,7 @@ if adapterHost.isnumeric():
     hostname = 'host.docker.internal'
     if 'podman' in os.path.basename(containerExePath).lower():
         hostname = 'host.containers.internal'
-        
-    args[0] = hostname + ':' + adapterHost
+        args[0] = hostname + ':' + adapterHost
 
 dockerExecArgs = [containerExePath, 'exec', '-d', containerId, 'python3', '/debugpy/launcher'] + args
 
