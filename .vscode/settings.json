@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 "spell.words": [
     "Anson",
     "Archivos",
@@ -20,4 +21,39 @@
     "repl": true
 },
 "workbench.editor.enablePreview": false,
+=======
+    "cSpell.words": [
+        "Archivos",
+        "borradores",
+        "compartido",
+        "Contenido",
+        "curso",
+        "desarrollo",
+        "diferentes",
+        "finalizado",
+        "listo",
+        "listos",
+        "notas",
+        "pasado",
+        "plantillas",
+        "progreso",
+        "publicado",
+        "publicar",
+        "Repositorio",
+        "reutilizables",
+        "revisión",
+        "texto",
+        "tipos",
+        "trabajo"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+>>>>>>> Stashed changes
 }
