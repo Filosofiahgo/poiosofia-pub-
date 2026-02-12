@@ -1,12 +1,10 @@
+<<<<<<< Updated upstream
 # poiosofía-pub-
-
-Repositorio para textos, informes y
-
- publicaciones poiosóficas.
+Repositorio para textos y publicaciones.
 
 ## Estructura del Proyecto
 
-```
+```bash
 poiosofía-pub-/
 ├── Arts-Performing/     → Guiones, notas de performance, medios y expresiones artísticas
 ├── Critical-Thinking/   → Ensayos, críticas, bitácoras y análisis
@@ -36,3 +34,8 @@ Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para detalles completos del flujo de
 | Nota Breve | `plantillas/plantilla-nota-breve.md` | Ideas rápidas y observaciones cortas |
 | Observaciones | `plantillas/plantilla-observaciones.md` | Observaciones insurgentes |
 | Texto Creativo | `plantillas/plantilla-texto-creativo.md` | Ensayos, poesía y escritura creativa |
+=======
+# poiosofia-pub-
+
+Repositorio para textos, informes y publicaciones poiosóficas
+>>>>>>> Stashed changes

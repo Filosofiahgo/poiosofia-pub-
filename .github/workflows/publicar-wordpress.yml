@@ -1,0 +1,43 @@
+name: Publicar en WordPress
+
+on:
+  push:
+    paths:
+      - 'publicar/**'
+    branches:
+      - main
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Convertir Markdown a HTML
+        run: |
+          mkdir -p html
+          for archivo in publicar/*.md; do
+            nombre=$(basename "$archivo" .md)
+            pandoc "$archivo" -f markdown -t html -s -o "html/${nombre}.html"
+          done
+
+      - name: Publicar en WordPress como borrador
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          for archivo_html in html/*.html; do
+            titulo=$(basename "$archivo_html" .html)
+            contenido=$(sed ':a;N;$!ba;s/\n/\\n/g' "$archivo_html")
+
+            curl -X POST "${WP_SITE_URL}/wp-json/wp/v2/posts" \
+              -u "${WP_USER}:${WP_APP_PASSWORD}" \
+              -H "Content-Type: application/json" \
+              -d "{\"title\": \"${titulo}\", \"content\": \"${contenido}\", \"status\": \"draft\"}"
+          done
