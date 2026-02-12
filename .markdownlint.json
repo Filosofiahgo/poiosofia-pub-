@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "default": true,
   "MD013": {
     "line_length": 180,
@@ -15,7 +14,3 @@
   "MD047": true,
   "MD009": true
 }
-=======
-  "MD013": false
-}
->>>>>>> Stashed changes

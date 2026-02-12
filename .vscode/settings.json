@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
 "spell.words": [
     "Anson",
     "Archivos",
@@ -21,46 +20,4 @@
     "repl": true
 },
 "workbench.editor.enablePreview": false,
-=======
-    "cSpell.words": [
-        "Anson",
-        "Archivos",
-        "borradores",
-        "compartido",
-        "Contenido",
-        "curso",
-        "desarrollo",
-        "diferentes",
-        "finalizado",
-        "listo",
-        "listos",
-        "notas",
-        "pasado",
-        "plantillas",
-        "progreso",
-        "publicado",
-        "publicar",
-        "Repositorio",
-        "reutilizables",
-        "revisión",
-        "texto",
-        "tipos",
-        "trabajo"
-    ],
-    "workbench.editor.alwaysShowEditorActions": true,
-    "workbench.editor.autoLockGroups": {
-        "default": true,
-        "workbench.editor.chatSession": true,
-        "agentSessionsWelcomePage": true,
-        "notebookOutputEditor": true,
-        "idl-notebook": true,
-        "copilot-chat-replay": true,
-        "bun.lockb": true,
-        "idl.enviOpener": true,
-        "workbench.input.interactive": true,
-        "mainThreadWebview-markdown.preview": true,
-        "repl": true
-    },
-    "workbench.editor.centeredLayoutFixedWidth": true
->>>>>>> Stashed changes
 }
