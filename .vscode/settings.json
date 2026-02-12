@@ -1,27 +1,4 @@
 {
-<<<<<<< Updated upstream
-"spell.words": [
-    "Anson",
-    "Archivos",
-    "borradores",
-    "compartido",
-    "texto",
-    "tipos",
-    "trabajo"
-                ],
-"workbench.editor.alwaysShowEditorActions": true,
-"workbench.editor.autoLockGroups": {
-    "default": true,
-    "workbench.editor.chatSession": true,
-        "notebookOutputEditor": true,
-    "idl-notebook": true,
-    "copilot-chat-replay": true,
-    "workbench.input.interactive": true,
-    "mainThreadWebview-markdown.preview": true,
-    "repl": true
-},
-"workbench.editor.enablePreview": false,
-=======
     "cSpell.words": [
         "Anson",
         "Archivos",
@@ -62,5 +39,4 @@
         "repl": true
     },
     "workbench.editor.centeredLayoutFixedWidth": true
->>>>>>> Stashed changes
 }
