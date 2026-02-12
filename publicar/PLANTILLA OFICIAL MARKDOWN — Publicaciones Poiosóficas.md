@@ -1,20 +1,21 @@
+# TÍTULO DEL TEXTO
+Escribe aquí
+## Subtítulo opcional
+Escribe
+
 ---
 title: "TÍTULO DEL TEXTO"
 author: "Jorge Castillo Martínez"
 date: "YYYY-MM-DD"
 categories: ["Poiosofía", "Ensayos", "Análisis"]
 tags: ["poiesis", "institución", "metáfora", "IA"]
-status: "draft"
----
-# TÍTULO DEL TEXTO
-Escribe aquí
-## Subtítulo opcional
-Escribe aquí
+status: "draft" 
 
+---
 ### Resumen
 Escribe aquí un resumen breve del texto. Debe ser conciso, claro y orientado a presentar el propósito del documento.
----
 
+---
 ## 1. Introducción
 Introduce el tema, el contexto y el propósito del texto. Explica por qué este análisis, informe o reflexión es relevante dentro de tu proyecto poiosófico.
 
@@ -53,5 +54,4 @@ Aquí puedes contrastar ideas, tensiones, paradojas o implicaciones instituciona
 ---
 ## 6. Referencias (opcional)
 - Autor, *Título*, año.  
-- Enlace o referencia adicional.  
----
+- Enlace o referencia adicional.
