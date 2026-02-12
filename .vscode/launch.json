@@ -4,7 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
@@ -13,33 +12,29 @@
             "outFiles": [
                 "${workspaceFolder}/out/**/*.js"
             ],
-            "preLaunchTask": "npm${relativeFileDirname}",
+            "preLaunchTask": "npm",
             "request": "launch",
             "type": "extensionHost"
         },
         {
             "type": "node",
             "name": "Launch IDL",
-            "request": "attach",
-            "preLaunchTask": "IDL: Start",
-            "address": "localhost",
-            "port": 9229
+            "request": "launch",
+            "preLaunchTask": "IDL: Start"
         },
         {
             "type": "node",
             "name": "Attach to IDL",
-            "request": "attach",
-            "address": "localhost",
-            "port": 9229
+            "request": "attach"
         },
         {
             "type": "msedge",
             "name": "Launch Microsoft Edge",
             "request": "launch",
-            "url": "c:\\Users\\ecrit\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.10\\out\\startpage\\index.html",
             "runtimeArgs": [
                 "--remote-debugging-port=9222"
             ],
+            "url": "c:\\Users\\ecrit\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.10\\out\\startpage\\index.html",
             "presentation": {
                 "hidden": true
             }
