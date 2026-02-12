@@ -9,7 +9,7 @@ author: "Jorge Castillo Martínez"
 date: "YYYY-MM-DD"
 categories: ["Poiosofía", "Ensayos", "Análisis"]
 tags: ["poiesis", "institución", "metáfora", "IA"]
-status: "draft" 
+status: "draft"
 
 ---
 ### Resumen
