@@ -9,7 +9,6 @@
 ## Epígrafe
 
 > [Cita, fragmento poético o frase que abre el texto]
-> 
 > — [Autor/fuente]
 
 ---
