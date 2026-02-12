@@ -1,25 +1,23 @@
 {
-    "cSpell.words": [
-        "Archivos",
-        "borradores",
-        "compartido",
-        "Contenido",
-        "curso",
-        "desarrollo",
-        "diferentes",
-        "finalizado",
-        "listo",
-        "listos",
-        "notas",
-        "pasado",
-        "plantillas",
-        "progreso",
-        "publicado",
-        "publicar",
-        "Repositorio",
-        "reutilizables",
-        "revisión",
-        "texto",
-        "tipos",
-        "trabajo" ]
+"spell.words": [
+    "Anson",
+    "Archivos",
+    "borradores",
+    "compartido",
+    "texto",
+    "tipos",
+    "trabajo"
+                ],
+"workbench.editor.alwaysShowEditorActions": true,
+"workbench.editor.autoLockGroups": {
+    "default": true,
+    "workbench.editor.chatSession": true,
+        "notebookOutputEditor": true,
+    "idl-notebook": true,
+    "copilot-chat-replay": true,
+    "workbench.input.interactive": true,
+    "mainThreadWebview-markdown.preview": true,
+    "repl": true
+},
+"workbench.editor.enablePreview": false,
 }

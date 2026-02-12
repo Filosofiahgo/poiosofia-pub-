@@ -36,7 +36,7 @@ Esta guía describe el proceso completo para crear, desarrollar y publicar texto
 Cuando el texto tenga forma definida, muévelo a la carpeta temática correspondiente:
 
 | Carpeta | Contenido |
-|---------|-----------|
+| --- | --- |
 | `Arts-Performing/` | Guiones, notas de performance, medios, expresiones artísticas |
 | `Critical-Thinking/` | Ensayos, críticas, bitácoras, análisis |
 | `Theory-Practice/` | Textos filosóficos, investigación, teoría |
